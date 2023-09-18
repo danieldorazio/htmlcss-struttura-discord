@@ -10,12 +10,18 @@
     justify-content: center;
     align-items: center;
 }
+.sezione {
+    min-height: 200px;
+}
+.quadrato{
+    min-height: 150px;   
+}
 
 
 /* HEADRE */
 header{
     height: 50px;
-    background-color: rgb(182, 238, 229);
+    background-color: rgb(43, 181, 158);
 }
 
 /* nav-bar */
@@ -25,7 +31,7 @@ header{
 }
 
 .logo{
-    width: 10%; 
+    width: 12.5%; 
     text-align: start;
 }
 .link{
@@ -33,24 +39,19 @@ header{
     text-align: center;
 }
 .login{
-    width: 10%;
+    width: 12.5%;
     text-align: end;
 }
 
 /* HERO */
-.hero{
-    min-height: 150px;
+.blu{
     background-color: blue;
 }
 .hero-1{
-    min-height: 150px;
     width: 55%;
     background-color: pink;
 }
 /* SECTION ORRDER */
-.sezione {
-    min-height: 200px;
-}
 .bianco{
     background-color:white;
 }
@@ -58,24 +59,21 @@ header{
     background-color: lightgrey;
 }
 
-.quadrato{
-    min-height: 150px;   
-}
 .piccolo{
     background-color: pink;
-    width: 200px;
+    width: 25%;
 }
 .grande{
     background-color: blue;
-    width: 400px; 
+    width: 50%; 
 }
 /* SECTION NORMALE */
-.sezione-large{
+.sezione-xlarge{
     min-height: 400px;
 }
 .quadrato-large{
     min-height: 300px;
-    width: 600px;
+    width: 75%;
     background-color: green;
 }
 
@@ -88,12 +86,24 @@ header{
 }
 .primo{
     background-color: pink;
-    width: calc((600px / 6) * 2);
+    width: calc((75% / 6) * 2);
 }
 .secondo{
     background-color: green;
-    width: calc(600px / 6);
-
+    width: calc(75% / 6);
 }
 
 /* FOOTET SPACE-BETWEEN */
+.footer{
+    height: 50px;
+    align-items: flex-end;
+}
+.end{
+    min-height: 30px;
+    width: 75%;
+    background-color: lime;
+    justify-content: space-between;
+}
+.rosa{
+    background-color: pink;
+}
