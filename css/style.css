@@ -11,6 +11,7 @@
     align-items: center;
 }
 
+
 /* HEADRE */
 header{
     height: 50px;
@@ -38,7 +39,7 @@ header{
 
 /* HERO */
 .hero{
-    min-height: 200px;
+    min-height: 150px;
     background-color: blue;
 }
 .hero-1{
@@ -47,7 +48,28 @@ header{
     background-color: pink;
 }
 /* SECTION ORRDER */
+.sezione {
+    min-height: 200px;
+}
+.dispari{
+    background-color:white;
+}
+.pari{
+    background-color: lightgrey;
+}
 
+.quadrato{
+    min-height: 150px;  
+    
+}
+.piccolo{
+    background-color: pink;
+    width: 200px;
+}
+.grande{
+    background-color: blue;
+    width: 400px; 
+}
 /* SECTION NORMALE */
 
 /* SECTION 5DIV SHRINK */
