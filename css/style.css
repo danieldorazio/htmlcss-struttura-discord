@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* UTILI */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADRE */
+header{
+    height: 50px;
+    background-color: rgb(182, 238, 229);
+}
+
+/* nav-bar */
+.nav-bar{
+    background-color: rgb(255, 129, 39);
+    border: 1px dotted black;
+}
+
+.logo{
+    width: 10%; 
+    text-align: start;
+}
+.link{
+    width: 50%;
+    text-align: center;
+}
+.login{
+    width: 10%;
+    text-align: end;
+}
