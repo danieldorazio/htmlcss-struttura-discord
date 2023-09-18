@@ -51,16 +51,15 @@ header{
 .sezione {
     min-height: 200px;
 }
-.dispari{
+.bianco{
     background-color:white;
 }
-.pari{
+.grigio{
     background-color: lightgrey;
 }
 
 .quadrato{
-    min-height: 150px;  
-    
+    min-height: 150px;   
 }
 .piccolo{
     background-color: pink;
@@ -71,7 +70,30 @@ header{
     width: 400px; 
 }
 /* SECTION NORMALE */
+.sezione-large{
+    min-height: 400px;
+}
+.quadrato-large{
+    min-height: 300px;
+    width: 600px;
+    background-color: green;
+}
 
 /* SECTION 5DIV SHRINK */
+.nero{
+    background-color: black;
+}
+.bordo{
+    border: 1px dotted white;
+}
+.primo{
+    background-color: pink;
+    width: calc((600px / 6) * 2);
+}
+.secondo{
+    background-color: green;
+    width: calc(600px / 6);
+
+}
 
 /* FOOTET SPACE-BETWEEN */
